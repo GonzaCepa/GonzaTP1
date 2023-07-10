@@ -1,0 +1,85 @@
+body{background-color: #f1fca2;}
+
+h1{
+	font-family: 'Outfit', sans-serif;
+	color: orange;
+	text-align: center;
+	font-size: 80px;
+	border: solid 8px orange;
+	margin: auto;
+	margin-left: 400px;
+	margin-right: 400px;
+	border-radius: 50px;
+}
+
+h2{font-family: 'Outfit', sans-serif;
+	color:black;
+	text-align: center;
+	font-size: 40px;
+	text-decoration: underline;
+
+}
+
+.fotos{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+background-color: #e8fa65;
+border-radius: 20px;
+
+}
+
+
+
+#Cuchillo{
+height: 250px;
+width: 250px;
+padding: 20px;
+margin: auto;
+
+}
+
+#glock{
+height: 200px;
+width: 200px;
+padding: 20px;
+margin: auto;	
+}
+
+#jeringa{
+height: 200px;
+width: 200px;
+padding: 20px;
+margin: auto;
+}
+
+ul{
+list-style: none;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+background-color: #e8fa65;
+border-radius: 20px;
+text-align: center;
+}
+
+a{
+	text-decoration: none;
+	
+}
+
+a:hover{
+	color: orange;
+}
+
+
+
+
+.Informacion{
+
+font-family:'Outfit', sans-serif;
+text-align: center;
+background-color:#e8fa65 ;
+border-radius: 20px;
+font-weight: bolder;
+}
